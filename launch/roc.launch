@@ -1,0 +1,8 @@
+<!--
+  Launch the ROC side visualizers
+ -->
+<launch>
+ <include file="$(find turtlebot_rviz_launchers)/launch/view_robot_remote.launch" />
+ <include file="$(find turtlebot_dashboard)/launch/turtlebot_dashboard.launch" />
+ <include file="$(find turtlebot_interactive_markers)/launch/interactive_markers.launch" />
+</launch>
